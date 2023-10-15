@@ -1,0 +1,6 @@
+module Pods_BelenetsAppTwo {
+  umbrella header "Pods-BelenetsAppTwo-umbrella.h"
+
+  export *
+  module * { export * }
+}
