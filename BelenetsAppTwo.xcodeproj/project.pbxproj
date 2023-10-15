@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5DEADA907DEB28FA6C9E232D /* libPods-BelenetsAppTwo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B859351A67F104900EE38FD /* libPods-BelenetsAppTwo.a */; };
 		92B242B32AD2BF5600606259 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B242B22AD2BF5600606259 /* AppDelegate.swift */; };
 		92B242B52AD2BF5600606259 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B242B42AD2BF5600606259 /* SceneDelegate.swift */; };
 		92B242B72AD2BF5600606259 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B242B62AD2BF5600606259 /* ViewController.swift */; };
-		92B242BA2AD2BF5600606259 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92B242B82AD2BF5600606259 /* Main.storyboard */; };
 		92B242BC2AD2BF5900606259 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92B242BB2AD2BF5900606259 /* Assets.xcassets */; };
 		92B242BF2AD2BF5900606259 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92B242BD2AD2BF5900606259 /* LaunchScreen.storyboard */; };
+		92B242C72AD33FE800606259 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B242C62AD33FE700606259 /* Model.swift */; };
+		92B242C92AD3512500606259 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B242C82AD3512500606259 /* CustomCell.swift */; };
+		92B242DB2AD48FFD00606259 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B242DA2AD48FFD00606259 /* NetworkManager.swift */; };
+		92B242DF2AD4AEF800606259 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B242DE2AD4AEF800606259 /* ViewModel.swift */; };
+		92B242EB2ADAC38900606259 /* Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B242EA2ADAC38900606259 /* Numbers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		62A89BF3BB1DC7BC57784FF0 /* Pods-BelenetsAppTwo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BelenetsAppTwo.release.xcconfig"; path = "Target Support Files/Pods-BelenetsAppTwo/Pods-BelenetsAppTwo.release.xcconfig"; sourceTree = "<group>"; };
+		7B859351A67F104900EE38FD /* libPods-BelenetsAppTwo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BelenetsAppTwo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92B242AF2AD2BF5600606259 /* BelenetsAppTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BelenetsAppTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92B242B22AD2BF5600606259 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92B242B42AD2BF5600606259 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		92B242B62AD2BF5600606259 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		92B242B92AD2BF5600606259 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		92B242BB2AD2BF5900606259 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92B242BE2AD2BF5900606259 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92B242C02AD2BF5900606259 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92B242C62AD33FE700606259 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		92B242C82AD3512500606259 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		92B242DA2AD48FFD00606259 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		92B242DE2AD4AEF800606259 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		92B242EA2ADAC38900606259 /* Numbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Numbers.swift; sourceTree = "<group>"; };
+		D98A8FB2D2AF5EB2AB7E5AE1 /* Pods-BelenetsAppTwo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BelenetsAppTwo.debug.xcconfig"; path = "Target Support Files/Pods-BelenetsAppTwo/Pods-BelenetsAppTwo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DEADA907DEB28FA6C9E232D /* libPods-BelenetsAppTwo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		31A099822847A9881DF76873 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D98A8FB2D2AF5EB2AB7E5AE1 /* Pods-BelenetsAppTwo.debug.xcconfig */,
+				62A89BF3BB1DC7BC57784FF0 /* Pods-BelenetsAppTwo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		92B242A62AD2BF5600606259 = {
 			isa = PBXGroup;
 			children = (
 				92B242B12AD2BF5600606259 /* BelenetsAppTwo */,
 				92B242B02AD2BF5600606259 /* Products */,
+				31A099822847A9881DF76873 /* Pods */,
+				E74C2995B004D9D6CA97B93F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +80,83 @@
 		92B242B12AD2BF5600606259 /* BelenetsAppTwo */ = {
 			isa = PBXGroup;
 			children = (
-				92B242B22AD2BF5600606259 /* AppDelegate.swift */,
-				92B242B42AD2BF5600606259 /* SceneDelegate.swift */,
-				92B242B62AD2BF5600606259 /* ViewController.swift */,
-				92B242B82AD2BF5600606259 /* Main.storyboard */,
-				92B242BB2AD2BF5900606259 /* Assets.xcassets */,
-				92B242BD2AD2BF5900606259 /* LaunchScreen.storyboard */,
-				92B242C02AD2BF5900606259 /* Info.plist */,
+				92B242E12AD5730000606259 /* App */,
+				92B242E02AD572F000606259 /* ViewController */,
+				92B242ED2ADC608C00606259 /* NetworkManager */,
+				92B242EF2ADC60D600606259 /* Storyboard */,
+				92B242EC2ADC606A00606259 /* Model */,
+				92B242EE2ADC60C800606259 /* Resources */,
 			);
 			path = BelenetsAppTwo;
+			sourceTree = "<group>";
+		};
+		92B242E02AD572F000606259 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				92B242B62AD2BF5600606259 /* ViewController.swift */,
+				92B242DE2AD4AEF800606259 /* ViewModel.swift */,
+				92B242E22AD57CD200606259 /* WeatherCell */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		92B242E12AD5730000606259 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				92B242C02AD2BF5900606259 /* Info.plist */,
+				92B242B22AD2BF5600606259 /* AppDelegate.swift */,
+				92B242B42AD2BF5600606259 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		92B242E22AD57CD200606259 /* WeatherCell */ = {
+			isa = PBXGroup;
+			children = (
+				92B242C82AD3512500606259 /* CustomCell.swift */,
+			);
+			path = WeatherCell;
+			sourceTree = "<group>";
+		};
+		92B242EC2ADC606A00606259 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				92B242C62AD33FE700606259 /* Model.swift */,
+				92B242EA2ADAC38900606259 /* Numbers.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		92B242ED2ADC608C00606259 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				92B242DA2AD48FFD00606259 /* NetworkManager.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		92B242EE2ADC60C800606259 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				92B242BB2AD2BF5900606259 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		92B242EF2ADC60D600606259 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				92B242BD2AD2BF5900606259 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		E74C2995B004D9D6CA97B93F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B859351A67F104900EE38FD /* libPods-BelenetsAppTwo.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +166,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 92B242C32AD2BF5900606259 /* Build configuration list for PBXNativeTarget "BelenetsAppTwo" */;
 			buildPhases = (
+				6BDD20F30E8DCFED508901AC /* [CP] Check Pods Manifest.lock */,
 				92B242AB2AD2BF5600606259 /* Sources */,
 				92B242AC2AD2BF5600606259 /* Frameworks */,
 				92B242AD2AD2BF5600606259 /* Resources */,
@@ -127,18 +220,47 @@
 			files = (
 				92B242BF2AD2BF5900606259 /* LaunchScreen.storyboard in Resources */,
 				92B242BC2AD2BF5900606259 /* Assets.xcassets in Resources */,
-				92B242BA2AD2BF5600606259 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6BDD20F30E8DCFED508901AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BelenetsAppTwo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		92B242AB2AD2BF5600606259 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92B242DF2AD4AEF800606259 /* ViewModel.swift in Sources */,
+				92B242DB2AD48FFD00606259 /* NetworkManager.swift in Sources */,
+				92B242EB2ADAC38900606259 /* Numbers.swift in Sources */,
 				92B242B72AD2BF5600606259 /* ViewController.swift in Sources */,
+				92B242C72AD33FE800606259 /* Model.swift in Sources */,
+				92B242C92AD3512500606259 /* CustomCell.swift in Sources */,
 				92B242B32AD2BF5600606259 /* AppDelegate.swift in Sources */,
 				92B242B52AD2BF5600606259 /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +269,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		92B242B82AD2BF5600606259 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				92B242B92AD2BF5600606259 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		92B242BD2AD2BF5900606259 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +396,7 @@
 		};
 		92B242C42AD2BF5900606259 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D98A8FB2D2AF5EB2AB7E5AE1 /* Pods-BelenetsAppTwo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -289,12 +404,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JJT989VNH4;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BelenetsAppTwo/Info.plist;
+				INFOPLIST_FILE = BelenetsAppTwo/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,14 +415,18 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = belenets.BelenetsAppTwo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		92B242C52AD2BF5900606259 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62A89BF3BB1DC7BC57784FF0 /* Pods-BelenetsAppTwo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -317,12 +434,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JJT989VNH4;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BelenetsAppTwo/Info.plist;
+				INFOPLIST_FILE = BelenetsAppTwo/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +445,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = belenets.BelenetsAppTwo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
